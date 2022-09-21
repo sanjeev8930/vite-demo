@@ -119,7 +119,7 @@ header .nav-item{font-size: 1.6rem;}
 .faq .accordion-button{font-size: 1.8rem; font-weight: 500; padding: 2.4rem 0; color: #000; background: transparent;}
 .faq .accordion-body{font-weight: 400; color: #6B7280; padding-left: 0;}
 .faq .accordion .accordion-item:first-child{margin-top:2.2rem;}
-.faq .accordion .accordion-button::after{width: 2rem; height: 2rem; background-size: 2rem; color: #9CA3AF; filter: opacity(0.5);} 
+.faq .accordion  .accordion-button::after{width: 2rem; height: 2rem; background-size: 2rem; color: #9CA3AF; filter: opacity(0.5);} 
 
 
 .badge__success{background: #D1FAE5; color: #065F46;}
