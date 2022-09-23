@@ -50,7 +50,7 @@ header .existingcustomer span{color: var(--color-primary);}
 /* ONLINEBUSINESS CODE END */
 
 /* FEATURE CODE START */
-.featureBetterway{padding: 192px 0 80px; position: relative; background: url(../src/assets/images/Path.png) no-repeat 0 206px; }
+.featureBetterway{padding: 170px 0 80px; position: relative; background: url(../src/assets/images/Path.png) no-repeat 0 206px; }
 .featureBetterway::before{background: var(--color-primary); position: absolute; content: ''; width: 100%; height: 100%; transform: skewY(-3.5deg); margin-top: 4.8rem; z-index: -1; top: 0; left: 0;}
 .featureBetterway__title{background: linear-gradient(135deg, #B16CEA 33.85%, #FF5E69 55.21%, #FF8A56 78.12%, #FFA84B 100%);
 -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; text-transform: uppercase; font-weight: 700; font-size: 1.8rem;}
