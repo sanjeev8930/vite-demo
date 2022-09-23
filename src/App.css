@@ -1,5 +1,6 @@
 :root{
     --color-primary:#111827;     
+    --color-secondary:#6B7280;
 }
 html{font-size: 62.5%;}
 
@@ -23,7 +24,7 @@ header .btn-dark{background-color:var(--color-primary); padding: 1rem 1.6rem; fo
 header .nav-link{ padding: 0 3.2rem 0 0!important;}
 header .log__in{padding-top: 1rem!important; padding-right:2.2rem!important;}
 header .nav-item{font-size: 1.6rem;}
-header .existingcustomer{color: #6B7280; text-align: center; margin-top: 2.4rem; font-weight: 500;}
+header .existingcustomer{color: var(--color-secondary); text-align: center; margin-top: 2.4rem; font-weight: 500;}
 header .existingcustomer span{color: var(--color-primary);}
 /* HEADER CODE END */
 
@@ -33,18 +34,18 @@ header .existingcustomer span{color: var(--color-primary);}
 .onlineBusiness__Details .input-group input{border-radius: 0.6rem!important;}
 .onlineBusiness__Details h1{font-size: 6rem; font-weight: 800; letter-spacing: -0.0225em;}
 .onlineBusiness__Details h1 span{background: linear-gradient(135deg, #B16CEA -14.15%, #FF5E69 55.21%, #FF8A56 78.12%, #FFA84B 100%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;}
-.onlineBusiness__Details p{font-size: 2rem; color:#6B7280 ; margin-top: 2rem; margin-bottom: 3.2rem; line-height: 2.8rem; font-weight: 400;}
+.onlineBusiness__Details p{font-size: 2rem; color:var(--color-secondary) ; margin-top: 2rem; margin-bottom: 3.2rem; line-height: 2.8rem; font-weight: 400;}
 .onlineBusiness .onlineBusiness__image{width:max(500px , 32%); height: 545px; background-color: #F3F4F6; position: absolute; right: 0; top: 50%; transform: translateY(-50%);}
 .onlineBusiness .onlineBusiness__image img {position: absolute; width: 448px; height: 299px; top: 140px; left: -128px;}
 
 .FormLabel label{font-weight: 500; color: var(--color-primary); margin-bottom: 1.2rem;}
-.FormLabel .form-control{height: 50px; max-width: 353px; border-radius: .6rem; color: #6B7280; font-weight: 400;}
+.FormLabel .form-control{height: 50px; max-width: 353px; border-radius: .6rem; color: var(--color-secondary); font-weight: 400;}
 
 .custombutton{padding: 1rem 1.6rem; min-height: 4rem; position: relative; border: 0; color: #fff;  background:transparent; margin-left: 12px!important; border-radius: 3px!important; min-width:141px; }
 
 .custombutton i{position: absolute; width: 99%; height: 100%; background:linear-gradient(135deg, #B16CEA 33.85%, #FF5E69 55.21%, #FF8A56 78.12%, #FFA84B 100%); left: 6px; top: 6px; z-index: 1; border-radius: 3px;}
 .custombutton span{position: absolute; background: var(--color-primary); width: 99%; height: 100%; border-radius: 3px; padding-top: 1rem; z-index: 2; left: 0; top: 0;}
-.onlineBusiness__pricacyPolicy{margin-top: 1.2rem; color: #6B7280;}
+.onlineBusiness__pricacyPolicy{margin-top: 1.2rem; color: var(--color-secondary);}
 .onlineBusiness__pricacyPolicy a{color:var(--color-primary); font-weight: 500;}
 /* ONLINEBUSINESS CODE END */
 
@@ -77,17 +78,17 @@ header .existingcustomer span{color: var(--color-primary);}
     border-radius: 8px; border: 0; border-radius: 0.8rem; margin-bottom: 0.8rem;}
 .alwaysLoop__author img{width: 4rem; height: 4rem; border-radius: 75%; margin-right: 3.2rem;}
 .alwaysLoop__author h4{font-size: 1.4rem; color: var(--color-primary); font-weight: 500; margin-bottom: 0;}
-.alwaysLoop__author p{font-size: 1.4rem; color: #6B7280; font-weight: 400; margin: 0;}
+.alwaysLoop__author p{font-size: 1.4rem; color: var(--color-secondary); font-weight: 400; margin: 0;}
 .alwaysLoop__author .badge{font-weight: 500; height:                                         2.4rem; display: flex; align-items: center; position: relative; font-size: 1.4rem; padding: .2rem 1.2rem .2rem 2.2rem; border-radius: 1.2rem;}
 .alwaysLoop__author .badge::before{position: absolute; left: .9rem; top: 1rem; content: ''; width: 0.6rem; height: 0.6rem; border-radius: 75%;}
 .alwaysLoopright{padding-left: 6rem;}
 .alwaysLoopright h5{font-size: 3rem; color: var(--color-primary); font-weight: 800; margin-bottom: 1.2rem;}
-.alwaysLoopright p{font-size: 1.8rem; color: #6B7280; font-weight: 400; margin-bottom: 1.2rem; line-height: 2.8rem;}
+.alwaysLoopright p{font-size: 1.8rem; color: var(--color-secondary); font-weight: 400; margin-bottom: 1.2rem; line-height: 2.8rem;}
 
 .alwaysLoopright__mediaNotification{display: flex; margin-top: 4rem;}
 .alwaysLoopright__mediaNotification img{width:4.8rem; height: 4.8rem; margin-right: 1.6rem;}
 .alwaysLoopright__mediaNotification h6{ font-size: 1.8rem; color: var(--color-primary); font-weight: 500; margin-bottom: 0.8rem;}
-.alwaysLoopright__mediaNotification p{ font-size: 1.6rem; color: #6B7280; line-height: 2.4rem; font-weight: 400; margin-bottom: 0;}
+.alwaysLoopright__mediaNotification p{ font-size: 1.6rem; color: var(--color-secondary); line-height: 2.4rem; font-weight: 400; margin-bottom: 0;}
 
 .simpletrickpricing{min-height: 450px; background: #F3F4F6; padding:9.6rem 0; position: relative; z-index: 1;}
 .simpletrickpricing__title{font-size: 4.8rem; font-weight: 800; color: var(--color-primary); margin-bottom: 1.6rem;}
@@ -97,7 +98,7 @@ header .existingcustomer span{color: var(--color-primary);}
     border-radius: 0.8rem; position: relative; z-index: 2;}
 .lifetimemembership .card-body{padding: 4.8rem; border-radius: 0.8rem 0 0 0.8rem;}
 .lifetimemembership .card-title{font-size: 3rem; color: var(--color-primary); font-weight: 800; margin-bottom: 2.4rem;}
-.lifetimemembership .card-text{color: #6B7280;}
+.lifetimemembership .card-text{color: var(--color-secondary);}
 .lifetimemembership__whatinclude{margin: 3.2rem 0; position: relative;}
 .lifetimemembership__text{display: inline-block; position: relative; z-index: 2; color: #4F46E5; text-transform: uppercase; font-weight: 600; background-color: #fff; padding-right: 1.6rem;}
 .lifetimemembership__whatinclude span{position: absolute; z-index: 1; right: 0; top: 1.1rem; width: 100%; height: 0.2rem; background-color: #E5E7EB;}
@@ -110,10 +111,10 @@ header .existingcustomer span{color: var(--color-primary);}
 .lifetimemembership__right{background: #F3F4F6; flex:0 0 333px; text-align: center; padding-top: 5rem;}
 .lifetimemembership__right__title{font-size: 1.8rem; color: var(--color-primary); font-weight: 500;}
 .lifetimemembership__right__price{font-size: 4.8rem; margin:1.6rem 0; line-height: 4.8rem; font-weight: 800; color: var(--color-primary); display: flex; align-items: center; justify-content: center;}
-.lifetimemembership__right__price span{color: #6B7280; margin-left: 1.2rem; font-size: 2rem; font-weight: 500;}
-.lifetimemembership__right__membership{font-size: 1.4rem; font-weight: 500; color: #6B7280; text-decoration: underline;}
+.lifetimemembership__right__price span{color: var(--color-secondary); margin-left: 1.2rem; font-size: 2rem; font-weight: 500;}
+.lifetimemembership__right__membership{font-size: 1.4rem; font-weight: 500; color: var(--color-secondary); text-decoration: underline;}
 .lifetimemembership__right__freesample{font-size: 1.4rem; font-weight: 500; color: var(--color-primary);}
-.lifetimemembership__right__freesample span{color: #6B7280; font-weight: 500;}
+.lifetimemembership__right__freesample span{color: var(--color-secondary); font-weight: 500;}
 
 .btn_secondary{padding: 1.3rem 2.1rem; background-color: var(--color-primary); border-radius: 0.6rem; margin: 2.4rem 0 1.6rem; color: #fff; width: 237px;}
 
@@ -121,7 +122,7 @@ header .existingcustomer span{color: var(--color-primary);}
 .faq__title{font-size: 4.8rem; font-weight: 800; color: var(--color-primary); position: relative; text-align: center;}
 .faq__title::before{position: absolute; content: ''; left: 0; bottom:-2.4rem; width: 100%; height: 2px; background: #E5E7EB;}
 .faq .accordion-button{font-size: 1.8rem; font-weight: 500; padding: 2.4rem 0; color: #000; background: transparent;}
-.faq .accordion-body{font-weight: 400; color: #6B7280; padding-left: 0; padding-bottom: 2.4rem;}
+.faq .accordion-body{font-weight: 400; color: var(--color-secondary); padding-left: 0; padding-bottom: 2.4rem;}
 .faq .accordion .accordion-item:first-child{margin-top:2.2rem;}
 .faq .accordion .accordion-item:last-child{margin-bottom:4rem;}
 .faq .accordion .accordion-button::after{width: 2rem; height: 2rem; background-size: 2rem; color: #9CA3AF; filter: opacity(0.5);} 
