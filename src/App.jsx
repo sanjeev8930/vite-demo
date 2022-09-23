@@ -4,14 +4,14 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <section class="main">
+  <section class="main">
 
-    
-
-  
-</section>
+  </section>
 
   );
 }
 
 export default App
+$(".navbar-toggler").click(function(){
+  $(".navbar-toggler-icon").toggleClass("closeButton");
+});
